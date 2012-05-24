@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "richedit_demo", "richedit_demo.vcproj", "{9797D3D7-65C3-4751-8E7D-FD9B8C032616}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "richedit", "..\richedit\richedit.vcproj", "{DAD129BE-C2F7-4358-8E46-5B8F8BE4A146}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9797D3D7-65C3-4751-8E7D-FD9B8C032616}.Debug.ActiveCfg = Debug|Win32
+		{9797D3D7-65C3-4751-8E7D-FD9B8C032616}.Debug.Build.0 = Debug|Win32
+		{9797D3D7-65C3-4751-8E7D-FD9B8C032616}.Release.ActiveCfg = Release|Win32
+		{9797D3D7-65C3-4751-8E7D-FD9B8C032616}.Release.Build.0 = Release|Win32
+		{DAD129BE-C2F7-4358-8E46-5B8F8BE4A146}.Debug.ActiveCfg = Debug|Win32
+		{DAD129BE-C2F7-4358-8E46-5B8F8BE4A146}.Debug.Build.0 = Debug|Win32
+		{DAD129BE-C2F7-4358-8E46-5B8F8BE4A146}.Release.ActiveCfg = Release|Win32
+		{DAD129BE-C2F7-4358-8E46-5B8F8BE4A146}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
